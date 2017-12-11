@@ -14,8 +14,12 @@ public class WriteToFile {
             //String str = in.nextLine();row4
             
 
-            out.write(str, 0, str.length());
-            //out.write(str);
+            out.write(str, 0, str.length());  
+            //str = String to be written,
+            //0 Offset from which to start reading characters
+            //str.length() - Number of characters to be written
+             //out.write(str);
+            
             out.close();
         }
         catch( IOException e ) {
